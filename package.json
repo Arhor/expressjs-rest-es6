@@ -1,0 +1,16 @@
+{
+  "name": "rest-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node ./src/bin/www"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "7.4.5"
+  },
+  "dependencies": {
+    "express": "~4.17.1"
+  }
+}
